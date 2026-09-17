@@ -72,4 +72,4 @@ ingestion/raw/
 .coverage
 htmlcov/
 CLAUDE.md
-.claude/
+GEN_AI/VLLM_AI/Qwen2.5-7B-Instruct/
