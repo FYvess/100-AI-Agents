@@ -4,10 +4,11 @@ import sys
 import json
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent.parent))
+# Add project root to path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import config
-from VLLM_AI import VLLMRAGClient
+from GEN_AI.VLLM_AI import VLLMRAGClient
 
 def test_vllm_connection():
     """Test basic VLLM HTTP connection and response parsing."""
